@@ -1,4 +1,4 @@
-# Music Shop · [Demo](https://muzio.herokuapp.com/) · [Code](https://github.com/ilicbojan/music-shop)
+# Music Shop · · [Code](https://github.com/Joshuawayne/music-shopi/tree/trunk)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">

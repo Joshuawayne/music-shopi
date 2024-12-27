@@ -18,7 +18,7 @@
 
 ![Demo Image](public/images/demo.png/?raw=true "Demo Image")
 
-Web application for listing and selling musical instruments. The goal of the web application is to allow users to search for musical instruments, see details, add them to the cart, and order them. Administrator adds new musical instruments and categories. Application has 2 different roles: administrator and user.
+Web application for listing and selling musical instruments in Kenya . The goal of the web application is to allow users to search for musical instruments, see details, add them to the cart, and order them. Administrator adds new musical instruments and categories. Application has 2 different roles: administrator and user.
 
 ## ⭐️ Features <a name="features"></a>
 
@@ -42,6 +42,70 @@ Web application for listing and selling musical instruments. The goal of the web
 -   [HTML](https://www.w3schools.com/html/)
 -   [CSS](https://www.w3schools.com/css/default.asp)
 -   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+## Here's a step-by-step guide to run this web app (made it easier for begginers:
+1. First, clone the project repository from GitHub.(but you can aslo dowload it as zip file)
+  git clone https://github.com/Joshuawayne/music-shopi.git
+ cd music-shopi
+
+ 2.INSTALL COMPOSER:
+
+Download and install Composer from the official site.
+
+Verify the installation with composer -v.(on cmd or whaterver terminal you'd prefer)
+
+Navigate to Project Directory:
+
+Use cd command to go to your Laravel project folder.(that will be in cd C:\xampp\htdocs\music-shopi)
+
+Install Dependencies:
+
+Run composer install to download and set up all necessary packages.
+Copy the .env File:
+
+3.Create a copy of the .env.example file and name it .env.
+
+bash
+cp .env.example .env
+4.Generate Application Key:
+
+Generate a new application key. This is used by Laravel to encrypt sensitive data.
+
+bash
+php artisan key:generate
+5.Set Up the Database Configuration:
+
+Open the .env file and set your database credentials.
+
+plaintext
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+6.Create the Database:
+
+Create a new database in MySQL with the name specified in your .env file.
+
+7.Run Database Migrations:
+
+Run the Laravel migrations to set up your database tables.
+
+bash
+php artisan migrate
+Seed the Database (Optional):
+
+Since we already have seeders, you can populate your database with the initial data.
+
+bash
+php artisan db:seed
+Start the Development Server:
+
+Start the Laravel development server.
+
+bash
+php artisan serve
+
 
 <!-- CONTACT -->
 

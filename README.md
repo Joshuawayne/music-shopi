@@ -47,8 +47,6 @@ Web application for listing and selling musical instruments. The goal of the web
 
 ## 📞 Contact <a name="contact"></a>
 
-Bojan Ilic - bojan.ilic2404@gmail.com - [LinkedIn](https://www.linkedin.com/in/ilic-bojan/) - [Portfolio](https://ilicbojan.com)
+mercyjoshu0@gmail.com
 
-Project Demo: [https://muzio.herokuapp.com/](https://muzio.herokuapp.com/)
-
-Project Source Code: [https://github.com/ilicbojan/music-shop](https://github.com/ilicbojan/music-shop)
+Project Source Code: [https://github.com/ilicbojan/music-shop]
